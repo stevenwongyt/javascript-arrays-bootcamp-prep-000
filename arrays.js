@@ -33,8 +33,7 @@ var chocolateBars = new Array();
   }
 
   function desctructivelyRemoveElementFromEndOfArray (array) {
-    array.pop();
-    return array;
+    return array.pop();
   }
 
   function removeElementFromEndOfArray (array) {
