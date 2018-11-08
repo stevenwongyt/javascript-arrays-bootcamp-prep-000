@@ -5,8 +5,9 @@ var chocolateBars = new Array();
     return [n, ... array];
   }
 
-  function destructivelyAddElementToEndOfArray (array, n) {
-    return array.unshift(n);
+  function destructivelyAddElementToBeginningOfArray (array, n) {
+    array.unshift(n);
+    return array;
   }
 
   function addElementToEndOfArray (array, n) {
