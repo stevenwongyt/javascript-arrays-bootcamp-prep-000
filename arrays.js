@@ -19,7 +19,7 @@ var chocolateBars = new Array();
     return array;
   }
 
-  function accessElementInAray (array, i) {
+  function accessElementInArray (array, i) {
     return array[i];
   }
 
