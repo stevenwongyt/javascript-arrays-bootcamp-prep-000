@@ -32,7 +32,7 @@ var chocolateBars = new Array();
     return array.slice(1);
   }
 
-  function desctructivelyRemoveElementFromEndOfArray (array) {
+  function destructivelyRemoveElementFromEndOfArray (array) {
     array.pop();
     return array;
   }
